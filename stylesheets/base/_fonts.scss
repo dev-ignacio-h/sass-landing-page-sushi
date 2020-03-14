@@ -1,0 +1,14 @@
+header {
+    font-family: $fuente-header;
+    text-transform: uppercase;
+}
+
+main, footer{
+    font-family: $fuente-contenido;
+    // text-transform: uppercase;
+}
+
+.aviso {
+    font-family: $fuente-aviso;
+    text-transform: uppercase;
+}

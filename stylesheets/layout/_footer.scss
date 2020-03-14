@@ -1,0 +1,13 @@
+
+footer {
+    background-color: $color-bg-footer;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p{
+        color: $text-color-footer;
+           
+    }
+}

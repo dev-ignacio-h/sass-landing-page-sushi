@@ -1,0 +1,45 @@
+html {
+  // box-sizing: border-box;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.aviso {
+  background-color: $color-bg-aviso;
+  height: 50px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+    p{
+      color: $text-color-aviso;
+      margin: 0;
+      padding: 1em;
+      
+    }
+}
+
+.contenido__portada {
+  display: flex;
+  padding: 2em;
+  background-color: $color-bg-portada;
+  img{
+    width: 90%;
+    margin: auto;
+    
+  }
+}
+
+.contenido__principal {
+  padding-left: 95px;
+  padding-right: 95px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 24% 26% 24% 26%;
+  grid-template-rows: 230px 230px; 
+  grid-gap: 50px 3px;
+  img {
+    width: 95%;
+  }
+}

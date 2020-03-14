@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    &__links {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    &__nav, &__sesion, &__carro  {
+        display: flex;
+        align-items: center;
+        img {
+            width: 7%;
+        }
+        // justify-content: space-between;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+        }
+
+        li {
+            padding: 15px;
+        }
+
+        a {
+            font-size: small;
+            color: $text-color-header;
+        }
+    }
+}
